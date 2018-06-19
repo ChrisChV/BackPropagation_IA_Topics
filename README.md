@@ -104,10 +104,19 @@ Resultado:
 ## Configuracin y ejecución
 
 * Entrar a la carpeta del StarCraft y luego a la carpeta "bwapi-data". Aquí es donde se pondrán las IAs y se configurará la API.
+
+![XP1](img3.png)
+
 * Se crea la carpeta AI y se coloca el Bot "Iron" dentro.
 * Se abre el archivo bwapi y se coloca el nombre del Bot "Iron" como la IA que se va a inyectar.
+
+![XP2](img4.png)
+
 * Entrar a la carpeta donde se instaló el API y ejecutar el programa "Chaoslauncher".
 * Marcar la casilla "BWAPI 4.1.2 Injector RELEASE.
+
+![XP3](img5.png)
+
 * Ejecutar el Inyector.
 * Entrar en Single Player > Expansion > Escojer un Usuario > Play Custom. Elegir un mapa cualquiera y elegir la raza terrans, ya que el Bot "Iron" sólo funciona con esa raza.
 * Esperar a que gane la IA.
