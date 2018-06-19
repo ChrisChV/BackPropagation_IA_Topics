@@ -71,8 +71,7 @@ Ejecución:
 ```
 Resultado:
 
-![alt text](images2.png)
-
+![XOR](img2.png)
 
 ### Iris
 
@@ -83,6 +82,38 @@ Ejecución:
 ```
 
 Resultado:
+
+![Iris](img1.png)
+
+# Configuración del API de StarCraft
+
+## Requerimientos
+
+* Se utilizó una máquina virtual con Windows XP. 
+* Se utilizó el StarCraftBW portable en la versión 1.16.1
+* El API que se usó es el del siguiente repositorio: https://github.com/bwapi/bwapi
+* Se utilizó la versión 4.1.2 de la api ya que es la más estable y la versión más actualizada causaba problemas con la versión de Windows de la máquina virtual.
+* Para las pruebas se utilizó el Bot "Iron", que se puede encontrar en el siguiente sitio: https://sscaitournament.com/index.php?action=scores
+
+## Instalación
+
+* Como el StarCraft es portable, puede ser colocado en cualquier directorio de la máquina virtual.
+* Se ejecuta el instalador de la API.
+* Se le dice la ubicación del StarCraft y se espera hasta que termine la instalación.
+
+## Configuracin y ejecución
+
+* Entrar a la carpeta del StarCraft y luego a la carpeta "bwapi-data". Aquí es donde se pondrán las IAs y se configurará la API.
+* Se crea la carpeta AI y se coloca el Bot "Iron" dentro.
+* Se abre el archivo bwapi y se coloca el nombre del Bot "Iron" como la IA que se va a inyectar.
+* Entrar a la carpeta donde se instaló el API y ejecutar el programa "Chaoslauncher".
+* Marcar la casilla "BWAPI 4.1.2 Injector RELEASE.
+* Ejecutar el Inyector.
+* Entrar en Single Player > Expansion > Escojer un Usuario > Play Custom. Elegir un mapa cualquiera y elegir la raza terrans, ya que el Bot "Iron" sólo funciona con esa raza.
+* Esperar a que gane la IA.
+
+
+
 
 
 
